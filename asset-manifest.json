@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-course/static/css/main.34ba1254.chunk.css",
-    "main.js": "/react-course/static/js/main.401c5827.chunk.js",
-    "main.js.map": "/react-course/static/js/main.401c5827.chunk.js.map",
+    "main.js": "/react-course/static/js/main.7118d70f.chunk.js",
+    "main.js.map": "/react-course/static/js/main.7118d70f.chunk.js.map",
     "runtime-main.js": "/react-course/static/js/runtime-main.92452752.js",
     "runtime-main.js.map": "/react-course/static/js/runtime-main.92452752.js.map",
     "static/js/2.1823a9d0.chunk.js": "/react-course/static/js/2.1823a9d0.chunk.js",
     "static/js/2.1823a9d0.chunk.js.map": "/react-course/static/js/2.1823a9d0.chunk.js.map",
     "index.html": "/react-course/index.html",
-    "precache-manifest.1bf26b19502faf5d60394980cf6b6014.js": "/react-course/precache-manifest.1bf26b19502faf5d60394980cf6b6014.js",
+    "precache-manifest.d11df9bae2a614de37a5e7a61124adc2.js": "/react-course/precache-manifest.d11df9bae2a614de37a5e7a61124adc2.js",
     "service-worker.js": "/react-course/service-worker.js",
     "static/css/main.34ba1254.chunk.css.map": "/react-course/static/css/main.34ba1254.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.92452752.js",
     "static/js/2.1823a9d0.chunk.js",
     "static/css/main.34ba1254.chunk.css",
-    "static/js/main.401c5827.chunk.js"
+    "static/js/main.7118d70f.chunk.js"
   ]
 }
