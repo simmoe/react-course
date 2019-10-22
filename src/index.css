@@ -21,7 +21,7 @@ body{
   background-color:#eee;
 }
 
-body, .app, .submodules{
+body, .app, .submodules, .submodule{
   padding:1rem;
 }
 .app{
@@ -30,6 +30,8 @@ body, .app, .submodules{
 .submodules{
   display:grid;
   gap:.2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.submodule{
   background-color:#fff;
-  grid-auto-columns: repeat(auto-fill, minmax(300px, 1fr));
 }

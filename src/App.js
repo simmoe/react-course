@@ -1,5 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import BasicModule from './modules/BasicModule'
+import BasicPropsModule from './modules/BasicPropsModule'
+import DefaultPropsModule from './modules/DefaultPropsModule'
 
 const App = () => {
   return(
@@ -7,7 +9,10 @@ const App = () => {
       <h1>App.js</h1>
       <p>App.js is the parent file in a hierarchy of submodules we will create.</p>
       <div className="submodules">
-        <h2>no submodules yet</h2>
+        <h2>Here comes the submodules</h2>
+        <BasicModule />
+        <BasicPropsModule value="pink"/>
+        <DefaultPropsModule />
       </div>
     </div>
   )
@@ -35,6 +40,8 @@ In your package.json file, locate “scripts” add these lines of code:
 }
 
 now go to github.com and SWITCH the branch to gh-pages branch 
+
+push/wait.......
 
 */
 
