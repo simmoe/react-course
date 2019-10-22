@@ -34,5 +34,7 @@ In your package.json file, locate “scripts” add these lines of code:
    ...
 }
 
+now go to github.com and SWITCH the branch to gh-pages branch 
+
 */
 
