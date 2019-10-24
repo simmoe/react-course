@@ -1,7 +1,10 @@
 import React from 'react'
+
 import BasicModule from './modules/BasicModule'
 import BasicPropsModule from './modules/BasicPropsModule'
 import DefaultPropsModule from './modules/DefaultPropsModule'
+import StateModule from './modules/StateModule'
+import StateArrayModule from './modules/StateArrayModule'
 
 const App = () => {
   return(
@@ -9,10 +12,12 @@ const App = () => {
       <h1>App.js</h1>
       <p>App.js is the parent file in a hierarchy of submodules we will create.</p>
       <div className="submodules">
-        <h2>Here comes the submodules</h2>
         <BasicModule />
         <BasicPropsModule value="pink"/>
         <DefaultPropsModule />
+        <StateModule />
+        <StateArrayModule />
+
       </div>
     </div>
   )
