@@ -10,7 +10,7 @@ const App = () => {
   return(
     <div className="app">
       <h1>App.js</h1>
-      <p>App.js is the parent file in a hierarchy of submodules we will create.</p>
+      <p>App.js is the parent file in a hierarchy of submodules we will create.</p> 
       <div className="submodules">
         <BasicModule />
         <BasicPropsModule value="pink"/>
