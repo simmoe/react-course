@@ -5,6 +5,7 @@ import BasicPropsModule from './modules/BasicPropsModule'
 import DefaultPropsModule from './modules/DefaultPropsModule'
 import StateModule from './modules/StateModule'
 import StateArrayModule from './modules/StateArrayModule'
+import LocalJSONArray from './modules/LocalJSONArray'
 
 const App = () => {
   return(
@@ -17,6 +18,7 @@ const App = () => {
         <DefaultPropsModule />
         <StateModule />
         <StateArrayModule />
+        <LocalJSONArray />
 
       </div>
     </div>
