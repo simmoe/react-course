@@ -3,7 +3,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:1rem;
-    height:400px;
+    height:1000px;
     overflow:scroll;
 }
 
@@ -17,7 +17,6 @@
 
 .video h2{
     font-size:.7rem;
-    text-transform:uppercase;
 }
 .video p {
     font-size:.6rem;

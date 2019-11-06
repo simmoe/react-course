@@ -6,10 +6,6 @@ import characters from '../files/rickmorty'
 import Character from './Character'
 import './characters.css'
 
-let str = ''
-characters.results.map( c => { str += `"${c.name}",` } )
-console.log(str)
-
 const RickMorty = () => {
 
     const [stateCharacters, setStateCharacters] = useState(characters.results)

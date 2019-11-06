@@ -8,6 +8,7 @@ import StateArrayModule from './modules/StateArrayModule'
 import LocalJSONArray from './modules/LocalJSONArray'
 import RickMorty from './modules/RickMorty'
 import Recipe from './modules/Recipe'
+import Checklist from './modules/Checklist'
 
 const App = () => {
   return(
@@ -20,6 +21,7 @@ const App = () => {
         <DefaultPropsModule />
         <StateModule />
         <StateArrayModule />
+        <Checklist />
         <LocalJSONArray />
         <RickMorty />
         <Recipe />

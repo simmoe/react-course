@@ -1,0 +1,19 @@
+.checklist input[type="text"]{
+    margin-bottom:1rem;
+}
+
+.checklist li{
+    list-style: none;
+}
+
+.checklist li.checked {
+    text-decoration: line-through;
+}
+
+.checklist .todos {
+    display:grid;
+    grid-template-columns: 1fr 20px 20px;
+    justify-content: space-around;
+}
+.checklist input[type="checkbox"]{
+}
