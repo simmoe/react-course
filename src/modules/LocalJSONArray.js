@@ -18,8 +18,8 @@ const LocalJSONArray = () => {
             <p>{mtv.description}</p>
             <input onInput={ filterVideos } placeholder="Search by title" />  
             <div className="videos">
-                {videos.map( video => 
-                <div className="video">
+                {videos.map( (video, i) => 
+                <div key={i} className="video">
                     <h2>{video.song}</h2>
                     <p>{video.artist}<br/>Order: {video.number}</p> 
                 </div>
