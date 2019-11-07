@@ -9,6 +9,7 @@ import LocalJSONArray from './modules/LocalJSONArray'
 import RickMorty from './modules/RickMorty'
 import Recipe from './modules/Recipe'
 import Checklist from './modules/Checklist'
+import Emojis from './modules/Emojis'
 
 const App = () => {
   return(
@@ -25,6 +26,7 @@ const App = () => {
         <LocalJSONArray />
         <RickMorty />
         <Recipe />
+        <Emojis />
 
       </div>
     </div>

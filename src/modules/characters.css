@@ -3,6 +3,8 @@
     grid-template-columns:repeat(2, 1fr);
     padding:1rem;
     gap:1rem;
+    max-height:1000px;
+    overflow:auto;
 }
 .character{
     min-height:200px;
