@@ -1,5 +1,6 @@
 /*  WE CONTINUE IN SCRIMBA  */
 /*  JSX....... - how to combine Javascript and HTML in REACT */
+////JSX (JavaScript XML) is a syntax extension to JavaScript used by React. JSX is basically used to write HTML tags inside JavaScript. Later, the JSX code will be translated into normal JavaScript, by Babel. In summary, React doesn't have HTML files, HTML tags are rendered directly inside JavaScript.
 
 import React from 'react'
 import ReactDOM from 'react-dom'
