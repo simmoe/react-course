@@ -1,3 +1,5 @@
+// ------------------------------------------------CHARACTER.JS
+
 import React from 'react'
 
 const Character = (props) => {

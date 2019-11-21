@@ -1,3 +1,5 @@
+/* // ----------------------------------------------CHARACTER.CSS */
+
 .characters{
     display:grid;
     grid-template-columns:repeat(2, 1fr);

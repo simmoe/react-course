@@ -1,3 +1,4 @@
+// -------------------------------------------------------BASICMODULE.JS
 import React from 'react'
 
 const BasicModule = () => {

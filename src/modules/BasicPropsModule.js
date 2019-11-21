@@ -1,3 +1,5 @@
+// ------------------------------------------------------BASICPROPSMODULE.JS
+
 import React from 'react'
 
 const BasicPropsModule = (props) => {

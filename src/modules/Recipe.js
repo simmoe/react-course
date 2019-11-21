@@ -1,3 +1,5 @@
+// --------------------------------------------------RECIPE.JS
+
 import React from 'react'
 import recipe from '../files/randomRecipe'
 import './Recipe.css'

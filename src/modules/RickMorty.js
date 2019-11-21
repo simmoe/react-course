@@ -1,3 +1,5 @@
+// -----------------------------------------RICKMORTY.JS
+
 // The JSON for Rick and Morty is colledted from this exellent ressource: https://github.com/jdorfman/awesome-json-datasets#github-api
 // Turns out there is a Rick and Morty API: https://rickandmortyapi.com/
 
