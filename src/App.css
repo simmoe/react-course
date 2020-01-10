@@ -14,9 +14,9 @@ header{
   background-color:#4285F4;
   color:white;
   z-index:1;
-  padding-left:20vh;
   display:grid;
   align-items:center;
+  padding-left:2rem;
 }
 
 header h1, header p{
@@ -28,11 +28,14 @@ header h1, header p{
   height:100vh;
   width:100vw;
   display:grid;
-  justify-content:start;
-  align-content:start;
-  padding:20vh;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
   scroll-snap-align: center;
   scroll-snap-stop: always;
+}
+.submodule *{
+  max-width:60vw;
 }
 
 .submodule:nth-of-type(even){
@@ -61,12 +64,6 @@ input{
   color:black;
 }
 
-.video{
-  background:#aaa;
-  padding:1rem;
-  min-height:160px;
-}
-
 .items, .videos{
   margin-top:1rem;
   width:60vw;
@@ -78,6 +75,13 @@ input{
   align-content:start;
   gap:.4rem;
 }
+
+.video{
+  background:#aaa;
+  padding:1rem;
+  min-height:160px;
+}
+
 
 .item{
   background:#4285F4;

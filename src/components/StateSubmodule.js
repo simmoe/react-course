@@ -6,7 +6,7 @@ const StateSubmodule = (props)  => {
     }
     return(
         <div className='subsubmodule'>
-            <h1>Submodule of the state submodule</h1>
+            <h1>Submodule of the StateModule</h1>
             <p>This module recievies two props that are in fact state variables from its parent. </p>
             <p>State variable number: {props.stateVariable}</p>
             <p>The module also recieves a text: <b>{props.string}</b></p>

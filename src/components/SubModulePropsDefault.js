@@ -8,13 +8,13 @@ const SubModulePropsDefault = (props)  => {
             <p>This prop exists: {props.example}</p>
             <p>But this one is empty: {props.nonExisting}</p>
             {
-                !props.nonExisting && <p>In stead we can use a default property like this sentence</p>
+                !props.nonExisting && <p><b>In stead we can use a default property like this sentence</b></p>
             }
             <p>It can also be used to check a property inline, like  
                 {
                 props.nonExisting 
                 ? 'hei' 
-                : <strong> hei med dig</strong>
+                : <strong> this string which is displayed if a prop is empty</strong>
                 }
             </p>
         </div>
