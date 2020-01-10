@@ -1,7 +1,4 @@
-# react-course
-Introductory exercises with create-react-app. Build a set of small components, that uses basic react features and props.
- 
- <a href="https://simmoe.github.io/react-course/">Watch a demo</a>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
